@@ -12,8 +12,7 @@ body {
     width: 800px;
     margin-top: 80px;
     margin-left: calc( (100% - 800px) / 2 );
-    background-image: url(img/signin.png);
-}
+    }
     .container > .left {
         display: inline-block;
         position:absolute;
@@ -21,8 +20,10 @@ body {
         height: 480px;
         float: left;
         top:20px;
-          background-color: #36f;
-        color: #fff;
+        background-image: url(../img/signin.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
     }
         .container > .left > h1 {
             display: inline-block;
@@ -33,6 +34,7 @@ body {
             display: inline-block;
             width: 100%;
             padding: 320px 50px 0 50px;
+            color: white;
         }
     .container > .right {
         display: inline-block;
