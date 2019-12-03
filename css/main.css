@@ -1,0 +1,41 @@
+body{
+background-color:grey;
+}
+
+main{
+
+}
+
+.container{
+    display: inline-block;
+    width: 80px;
+    background-color: yellow;
+    margin-left: calc((100% - 800px) / 2);
+}
+
+.container > .left{
+    display: inline-block;
+    width: 40%;
+    float: left;
+    background-color: blue;
+}
+
+
+.container > .right{
+    display: inline-block;
+    width: 60%;
+    float: left;
+}
+.container > .right > form{
+    display: inline-block;
+    width: 100%;
+    background-color: pink;
+}
+
+.container > .right > form > .form-row{
+    display: inline-block;
+    width: 100%;
+    background-color: pink;
+}
+
+
