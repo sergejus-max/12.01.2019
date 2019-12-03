@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>12.01.2019</title>
+    <title>Sign up</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/button.css">
     <link rel="stylesheet" href="./css/form.css">
@@ -13,35 +13,44 @@
 <body>
     <main class="container">
         <div class="left">
-            <h1>Sign Up</h1>
-            <footer>
+            <h1>Sign up</h1>
+            <footer class="melinas">
                 <a href="#">Privacy policy</a>
                 <span>&</span>
-                <a href="#">terms of service</a>
+                <a href="#" class="left">terms of service</a>
             </footer>
         </div>
         <div class="right">
+            <div>x</div>
             <form>
-                <div>
-                    <label for="username">Username</label>
-                    <input type="text" placeholder="Enter your usern name" name="usernema">
+                <div class="form-row">
+                    <label for="slapyvardis">Username</label>
+                    <input type="text"
+                        placeholder="Enter your username here..."
+                        name="slapyvardis">
                 </div>
-                <div>
+                <div class="form-row">
                     <label for="email">E-mail</label>
-                    <input type="email" name="email">
+                    <input type="email"
+                        placeholder="your@email.com"
+                        name="email">
                 </div>
-                <div>
+                <div class="form-row">
                     <label for="pass">Password</label>
-                    <input type="password" placeholder="password" name="pass">
+                    <input type="password"
+                        placeholder="password"
+                        name="pass">
                 </div>
-                <div>
+                <div class="form-row">
                     <label for="pass2">Repeat password</label>
-                    <input type="password" name="pass2">
+                    <input type="password"
+                        placeholder="password"
+                        name="pass2">
                 </div>
-                <div>
-                    <div>Get started</div>
+                <div class="form-row">
+                    <div class="btn">Get started</div>
                     <span>or</span>
-                    <a href="#">Sign In</a>
+                    <a href="#">Sign in</a>
                 </div>
             </form>
         </div>
